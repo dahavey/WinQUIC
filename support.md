@@ -1,22 +1,14 @@
-# MsQUIC release branches and Support lifecycle
+# Support for MsQUIC
 
-MsQUIC is a Windows networking product and follows the Windows release and support cycle as closely as possible. A release branch will be snapped with every Windows GA release with the support lifecycle will mirror the Windows GA release. Support for an MsQUIC release begins when it is released and it ends at the end of it's Windows GA release lifecycle.
+An MsQUIC release begins its life in the current master branch where it receives feature updates as well as servicing for security and bug fixes. When it is time to release the code will be snapped into a release branch where it will recieve only servicing for security and bug fixes. Release branches are stable and receive only security and bug servicing.
 
-Every Microsoft product has a lifecycle, including .NET Core. The lifecycle begins when a product is released and ends when it's no longer supported. Knowing key dates in this lifecycle helps you make informed decisions about when to upgrade or make other changes to your software. This product is governed by the [Microsoft Modern Lifecycle](https://support.microsoft.com/help/30881/modern-lifecycle-policy).
+## MsQUIC Releases
 
-This document describes the support lifecycle for: .NET Core, ASP.NET Core and EF Core.
+This table describes the version, release date and end of support for MsQUIC releases.
 
-The [.NET Core OS Lifecycle Policy](https://github.com/dotnet/core/blob/master/os-lifecycle-policy.md) describes support for various operating systems.
-
-## .NET Core Releases
-
-This table describes support type, supported patch version and end of support date for .NET Core releases.
-
-|  Version  |  Release Date | Support Level | Supported Patch Version | End of Support |
-| -- | -- | -- | -- | -- |
-| [.NET Core 3.1](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/) | December 3, 2019 | LTS | [3.1.2](https://dotnet.microsoft.com/download/dotnet-core/3.1) | December 3, 2022 |
-| [.NET Core 3.0](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/) | September 23, 2019 | Maintenance | [3.0.3](https://dotnet.microsoft.com/download/dotnet-core/3.0) | March 3, 2020 |
-| [.NET Core 2.1](https://blogs.msdn.microsoft.com/dotnet/2018/05/30/announcing-net-core-2-1) | May 30, 2018 | LTS | [2.1.16](https://dotnet.microsoft.com/download/dotnet-core/2.1) | August 21, 2021 |
+|  Version  |  Release Date | End of Support |
+| -- | -- | -- |
+| [MsQUIC 1.0.0](https://techcommunity.microsoft.com/t5/networking-blog/bg-p/NetworkingBlog) | TBA | TBA |
 
 For previous versions, [see here](https://dotnet.microsoft.com/platform/support/policy/dotnet-core).
 
